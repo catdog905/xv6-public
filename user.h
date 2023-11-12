@@ -37,3 +37,6 @@ void* memset(void*, int, uint);
 void* malloc(uint);
 void free(void*);
 int atoi(const char*);
+
+// wolfie.c
+int sys_wolfie(void *buf, uint size);
