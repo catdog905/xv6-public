@@ -442,3 +442,10 @@ sys_pipe(void)
   fd[1] = fd1;
   return 0;
 }
+
+int
+sys_wolfie(void *buf, uint size)
+{
+    buf = "Hello World!";
+    return 0;
+}

@@ -38,5 +38,5 @@ void* malloc(uint);
 void free(void*);
 int atoi(const char*);
 
-// wolfie.c
+// wolfie
 int sys_wolfie(void *buf, uint size);
