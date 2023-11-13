@@ -4,9 +4,8 @@
 int
 main(int argc, char *argv[])
 {
-    char buf[100];
-    wolfie(buf, 0);
-    //printf(2, "%d", res);
+    char buf[1000];
+    wolfie(buf, 1000);
     printf(2, buf);
-    return 0;
+    exit();
 }
