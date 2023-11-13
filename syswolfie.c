@@ -1,4 +1,5 @@
 #include "types.h"
+#include "defs.h"
 #include "user.h"
 
 int
@@ -9,5 +10,5 @@ sys_wolfie(void)
 
     if(argstr(0, &image) < 0 || argint(1, (int*)&n) < 0)
         return -1;
-    return fileread(f, p, n);
+    return wolfie(f, p, n);
 }
